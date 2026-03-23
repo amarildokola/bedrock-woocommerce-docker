@@ -41,7 +41,8 @@
     "roots/wordpress": "6.9.1",
     "roots/wp-config": "1.0.0",
     "wpackagist-theme/twentytwentyfive": "^1.0",
-    "wpackagist-plugin/woocommerce": "^10.6"
+    "wpackagist-plugin/woocommerce": "^10.6",
+    "wpackagist-plugin/wp-stateless": "^4.4"
   },
   "require-dev": {
     "laravel/pint": "^1.18"

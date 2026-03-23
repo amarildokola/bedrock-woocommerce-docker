@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "63035b01cca311f6c9aba8351e18322a",
+    "content-hash": "2ed9aa6be8217f5808bd60ce5709a7f0",
     "packages": [
         {
             "name": "composer/installers",
@@ -1033,6 +1033,24 @@
             "homepage": "https://wordpress.org/plugins/woocommerce/"
         },
         {
+            "name": "wpackagist-plugin/wp-stateless",
+            "version": "4.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-stateless/",
+                "reference": "tags/4.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-stateless.4.4.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-stateless/"
+        },
+        {
             "name": "wpackagist-theme/twentytwentyfive",
             "version": "1.4",
             "source": {
@@ -1128,5 +1146,5 @@
         "php": ">=8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.2.0"
 }

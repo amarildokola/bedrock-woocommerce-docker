@@ -90,7 +90,7 @@ if (env('DB_SSL')) {
 Config::define('DB_NAME', env('DB_NAME'));
 Config::define('DB_USER', env('DB_USER'));
 Config::define('DB_PASSWORD', env('DB_PASSWORD'));
-Config::define('DB_HOST', '172.19.0.2');
+Config::define('DB_HOST', '35.205.142.200');
 Config::define('DB_CHARSET', 'utf8mb4');
 Config::define('DB_COLLATE', '');
 $table_prefix = env('DB_PREFIX') ?: 'wp_';

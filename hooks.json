@@ -1,8 +1,0 @@
-[
-  {
-    "id": "deploy",
-    "execute-command": "/home/amarildo_kola/bedrock-woocommerce-docker/deploy.sh",
-    "command-working-directory": "/home/amarildo_kola/bedrock-woocommerce-docker",
-    "response-message": "Deploy triggered"
-  }
-]
